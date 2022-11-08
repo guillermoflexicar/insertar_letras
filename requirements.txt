@@ -1,0 +1,7 @@
+Pillow==9.2.0
+opencv-python==4.6.0.66
+fastapi==0.80.0
+numpy==1.21.6
+rembg==2.0.25
+requests==2.28.1
+uvicorn==0.18.3
