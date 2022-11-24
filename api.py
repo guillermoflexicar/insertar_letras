@@ -117,3 +117,13 @@ if __name__ == '__main__':
 # print(resp.text)
 
 ######api
+
+
+# folder_path = 'coches/0609JFR'
+# folder_info =  os.listdir(folder_path)
+# for image in folder_info:
+# image_path = os.path.join(folder_path, image)
+# print(image_path)
+# resp = requests.get('http://127.0.0.1:8000/items/6?q='+image_path)
+
+# resp = requests.get('http://127.0.0.1:8000/items/6?q=coches/5776LGX/5776LGX_07_rear.jpg')
