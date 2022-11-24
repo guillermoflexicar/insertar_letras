@@ -11,7 +11,7 @@ correspondientes.
 
 Para ejecutar la api, trabajo en pycharm y la ejecuto desde allí utilizando requests, aunque previamente llamo el siguiente comando desde terminal, 
 dentro de la carpeta insertar_letras, para poder trabajar con FastApi:
-uvicorn api:app --reload
+uvicorn pruebas:app --reload
 
 Ejemplo de la llamada:
 requests.get('http://127.0.0.1:8000/items/6?q=coches/5776LGX/5776LGX_07_rear.jpg')
